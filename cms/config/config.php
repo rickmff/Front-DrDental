@@ -5,10 +5,10 @@
 	}
 	
 	if(is_localhost()){
-		$config_hostBD 			= "localhost"; //host de conexao com BD
+		$config_hostBD 			= "aprovajob.com"; //host de conexao com BD
 		$config_nomeBD 			= "aprovajob_doutordental"; //banco de dados de conexao com BD
-		$config_userBD 			= "root"; //usuario de conexao com BD
-		$config_senhaBD			= ""; //senha de conexao com BD
+		$config_userBD 			= "aprovajob_doutordental"; //usuario de conexao com BD
+		$config_senhaBD			= "kombidesign19"; //senha de conexao com BD
 		$config_urlCliente 		= "http://localhost/doutordental/"; //URL Do site
 	} else {
 		$config_hostBD 			= "localhost"; //host de conexao com BD

@@ -11,7 +11,7 @@ $white: #fff;
 $black: #000;
 $darkgray: #666;
 $overlay: #999;
-$gray-bg: #CCC;
+$gray-bg: #ecf3fa    ;
 $light-background: #f0f0f0;
 $darker-font: #333;
 $button-light: #ccc;
@@ -24,6 +24,9 @@ $black-btn: #313131;
 $light-btn: #ebebeb;
 $light-gray: #e1e1e1;
 $section-gray: #e8e8e8;
+$blue-dark: #001a5a;
+$blue-medium: #5f84ca;
+$blue-light: #92dfff;
 
 // Cores relacionadas ao website
 $site-main-color: #088FD3;
@@ -37,7 +40,8 @@ $breakpoints: (
 
 // Configurações de Fontes.
 $rem-base: 14px;
-$main-font: 'Open Sans', sans-serif;
+$main-font: 'Source Sans Pro', sans-serif;
+
 
 // Fontes utilizadas em @font-face.
 $font-faces: (

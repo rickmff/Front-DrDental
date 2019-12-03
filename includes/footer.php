@@ -1,16 +1,7 @@
 <div class="footer">
     <div class="container"><!-- RODAPE -->
         <div class="row">
-            <div class="col-md-8">
-                <h3>Titulo</h3>
-                <a href="">Item</a><br>
-                <a href="">Item</a><br>
-            </div>
-            <div class="col-md-4">
-                <h3>Titulo</h3>
-                <a href="">Item</a><br>
-                <a href="">Item</a><br>
-           </div>
+
         </div>
     </div> 
 </div>

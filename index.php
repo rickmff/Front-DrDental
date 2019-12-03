@@ -5,55 +5,190 @@ require 'cms/classes/class.conndatabase.php';
 require 'cms/classes/functions.php';
 ?>
 <!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> 
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
 <html class="no-js" lang="pt-br" itemscope="" itemtype="http://schema.org/WebPage"> <!--<![endif]-->
-<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <? include('includes/metas.php');?>
-    
-    <? include('includes/css.php');?>
-    
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <? include('includes/metas.php'); ?>
+
+    <? include('includes/css.php'); ?>
+
     <link rel="stylesheet" href="assets/css/slider.css" type="text/css">
 </head>
 
 <body>
 
-<? include('includes/header.php');?>
+<? include('includes/header.php'); ?>
 
-<? include('includes/slider.php');?>
+<? include('includes/slider.php'); ?>
 
-<div class="page home"> <!--Elemento de formatação-->
+<section class="home"> <!--Elemento de formatação-->
 
-<div class="container">
-    <div class="row">
-        <div class="col-md-4">
-          <h2><a href="javascript:">Título I</a></h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn" href="#">Saiba mais</a></p>
+    <section class="clinica">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="container row">
+                        <img class="mr-3" src="assets/images/icon-clinica.png" alt="Icone clinica - Doutor Dental">
+                        <h2>Clínica <br> <span>Doutor Dental</span></h2>
+                    </div>
+                    <p>
+                        A clínica Doutor Dental trabalha de forma segmentada na área de odontologia, focada em oferecer
+                        o
+                        melhor do mercado para cada cliente.
+                        <br><br>
+                        A proposta é clara: oferecer tratamentos de alta qualidade de forma tranquila, sem traumas.
+                    </p>
+                    <a href="quemsomos" class="btn my-5">Conheça a clínica</a>
+                </div>
+                <div class="col-md-6">
+                    <div class="sliders">
+                        <? for ($i = 0; $i < 3; $i++) { ?>
+                            <img src="assets/images/consultorio.png" alt="Consultorio da Doutor Dental">
+                        <? } ?>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-md-4">
-          <h2><a href="javascript:">Título 2</a></h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn" href="#">Saiba mais</a></p>
-       </div>
-        <div class="col-md-4">
-          <h2><a href="javascript:">Título 3</a></h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn" href="#">Saiba mais</a></p>
+    </section>
+
+    <section class="tratamentos">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8">
+                    <h2>
+                        Conheça <span>Nosso Tratamentos</span>
+                    </h2>
+                    <p>Os tratamentos preventivos são exames periódicos que vão diagnosticar com antecedência
+                        problemas da saúde bucal, evitando um agravamento posterior.</p>
+                    <ul class="row justify-content-between">
+                        <li>
+                            <img src="assets/images/icon-tratamento-estetica.png"
+                                 alt="Icone tratamento estéticos Doutor Dental">
+                            <h3>Estética</h3>
+                        </li>
+                        <li>
+                            <img src="assets/images/icon-tratamento-ortodontia.png"
+                                 alt="Icone tratamento ortodonticos Doutor Dental">
+                            <h3>Ortodontia</h3>
+                        </li>
+                        <li>
+                            <img src="assets/images/icon-tratamento-clinico.png"
+                                 alt="Icone tratamento clinicos Doutor Dental">
+                            <h3>Clínico</h3>
+                        </li>
+                        <li>
+                            <img src="assets/images/icon-tratamento-implantes.png"
+                                 alt="Icone tratamento de implantes Doutor Dental">
+                            <h3>Implantes</h3>
+                        </li>
+                        <li>
+                            <img src="assets/images/icon-tratamento-outros.png"
+                                 alt="Icone outros tratamentos  Doutor Dental">
+                            <h3>Outros</h3>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-    </div>
-</div>
+    </section>
 
-</div> <!--Fim do elemento de formatação-->
+    <section class="agendar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 align-self-center">
+                    <div class="row container">
+                        <img class="mr-3" src="assets/images/icon-agendar.png" alt="Icone clinica - Doutor Dental">
+                        <h2>Agende <br><span>Sua Consulta</span></h2>
+                    </div>
 
+                    <form class="form-style" name="formContato" id="formContato" action="javascript:" method="post"
+                          onsubmit="enviaContato();">
+                        <div class="row">
+                            <div class="col-md-4 mt-3">
+                                <div class="form-group">
+                                        <span class="input input--chisato">
+                                            <input required="" class="input__field input__field--chisato" type="text"
+                                                   name="nome" id="nome">
+                                            <label class="input__label input__label--chisato">
+                                                <span class="input__label-content input__label-content--chisato"
+                                                      data-content="NOME:">NOME:</span>
+                                            </label>
+                                        </span>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mt-3">
+                                <div class="form-group">
+                                        <span class="input input--chisato">
+                                            <input required="" class="input__field input__field--chisato" type="text"
+                                                   name="email" id="email">
+                                            <label class="input__label input__label--chisato">
+                                                <span class="input__label-content input__label-content--chisato"
+                                                      data-content="SEU EMAIL:">SEU EMAIL:</span>
+                                            </label>
+                                        </span>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mt-3">
+                                <div class="form-group">
+                                        <span class="input input--chisato">
+                                            <input required="" class="input__field input__field--chisato mask_phone"
+                                                   type="text" name="telefone" id="telefone">
+                                            <label class="input__label input__label--chisato">
+                                                <span class="input__label-content input__label-content--chisato"
+                                                      data-content="TELEFONE:">TELEFONE:</span>
+                                            </label>
+                                        </span>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <button class="btn w-100">Agendar Consulta</button>
+                </div>
 
-<? include('includes/footer.php');?>
+                <div class="col-md-6 d-flex justify-content-center">
+                    <img class="medica" src="assets/images/medica.png" alt="Oftalmologista Doutora Dental">
+                </div>
+            </div>
+        </div>
+    </section>
 
-<? include('includes/js.php');?>
+    <section class="blog">
+        <div class="container">
+            <div class="container row">
+                <img class="mr-3" src="assets/images/icon-blog.png" alt="Icone Blog nossas novidades Doutor Dental">
+                <h2>Blog<br><span>Nossas Novidades</span></h2>
+            </div>
+            <div class="row mt-5">
+                <? for ($i = 0; $i < 3; $i++) { ?>
+                    <div class="col-md-4">
+                        <img class="img-fluid" src="assets/images/blog.jpg" alt="Imagem do Blog Doutora Dental">
+                        <br>
+                        <h4 class="pl-1">LOREM IPSUM DOLOR SIT AMET, CONSECTETUR
+                            ADIPISCING ELIT. NULLA QUAM VELIT...</h4>
+                        <br>
+                        <p class="pl-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu
+                            pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.
+                        </p>
+                    </div>
+                <? } ?>
+            </div>
+        </div>
+    </section>
 
-<? include('includes/analytics.php');?>
+</section>
+
+<? include('includes/footer.php'); ?>
+
+<? include('includes/js.php'); ?>
+
+<? include('includes/analytics.php'); ?>
 
 </body>
 </html>

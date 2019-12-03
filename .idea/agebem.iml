@@ -3,6 +3,7 @@
   <component name="CompassSettings">
     <option name="compassConfigPath" value="$MODULE_DIR$/config.rb" />
     <option name="compassExecutableFilePath" value="C:/Ruby25-x64/bin/compass.bat" />
+    <option name="compassSupportEnabled" value="true" />
   </component>
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$" />
