@@ -1,0 +1,119 @@
+$green-whats: #00A859;
+$black-hover: #222;
+$gray-label: #495057;
+
+.open-formConsulta {
+  //display: none;
+  .cotacao-elem {
+    display: none;
+  }
+  &.modal-form {
+    background-image: image_url('whatsapp-bg.png');
+    border-radius: 5px;
+    position: fixed;
+    bottom: 60px;
+    right: 3vh;
+    width: 300px;
+    height: 405px;
+    color: white;
+    animation: moveDivUp 1s;
+    z-index: 9999;
+    @include breakpoint() {
+      right: 2vh;
+    }
+
+    .header-cotacao {
+      background: $blue-dark;
+      border-radius: 5px 0 0;
+      padding: 5px 35px 0;
+      position: relative;
+
+      h4 {
+        @include font('Montserrat', 14, 900);
+        padding-top: 18px;
+      }
+
+      .close-window {
+        position: absolute;
+        right: -5px;
+        top: -5px;
+
+        a {
+          color: $white;
+
+          &:hover {
+            color: $blue-dark;
+          }
+
+          i {
+            font-size: 22px;
+            border-radius: 50%;
+            border: 2px solid $blue-dark;
+          }
+        }
+      }
+
+      .logo-chat {
+        padding: 10px 0;
+        img {
+          max-width: 90%;
+          transform: scale(0.4) !important;
+        }
+      }
+    }
+  }
+  label {
+    font-size: 14px;
+    padding-bottom: 2px;
+    color: $blue-dark !important;
+  }
+
+  .btn {
+    background-color: #F0993B;
+    color: white;
+  }
+
+  .form-cotacao {
+    margin-top: 10px;
+
+    .form-group {
+      margin-bottom: .5rem !important;
+    }
+
+    input {
+      height: 45px;
+      border-radius: .25rem;
+    }
+
+    .iniciar-conversa {
+      margin-top: 15px;
+
+      .link-contacao {
+        @include font('Raleway', 15, 700);
+        text-transform: uppercase;
+        transition: all .4s;
+        text-align: center;
+        background: $gray-label;
+        padding: 12px 25px;
+        display: block;
+        color: $white;
+
+        &:hover {
+          background: $black-hover;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+@keyframes moveDivUp {
+  from {
+    right: 0vh;
+  }
+  to {
+    right: 3.5vh;
+  }
+}
+
+

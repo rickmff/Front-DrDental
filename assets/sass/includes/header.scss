@@ -18,6 +18,9 @@ header {
     font-weight: 300;
     a.whats {
       color: white;
+      &:hover {
+        color: #25D366;
+      }
     }
     a {
       margin-left: 3.5rem;
@@ -50,6 +53,14 @@ header {
     border-radius: 25px;
     border: 1px dashed #8894b2;
     padding: 10px 15px 10px 15px;
+    transition: 0.5s ease-in-out;
+
+    &:hover {
+      border: 1px solid white;
+      background-color: white;
+      color: $blue-dark;
+      transition: 0.3s ease-in-out;
+    }
   }
 
   .btn {
@@ -57,6 +68,7 @@ header {
     background: $blue-medium;
     &:hover {
       background: $blue-light;
+      color: $blue-dark;
     }
   }
 }

@@ -140,15 +140,17 @@ RewriteBase /doutordental/
 ErrorDocument 404 /doutordental/404.php
 
 RewriteRule ^home\/?$ index.php
-RewriteRule ^empresa\/?$ empresa.php
-RewriteRule ^fale-conosco\/?$ fale-conosco.php
+RewriteRule ^quemsomos\/?$ quemsomos.php
+RewriteRule ^blog\/?$ blog.php
+RewriteRule ^blog-detalhe\/?$ blog-detalhe.php
+RewriteRule ^contato\/?$ contato.php
 
-RewriteRule ^produtos/([A-Za-z0-9-]*)\/?$ produtos-categoria.php?slug=$1
-RewriteRule ^produtos/([A-Za-z0-9-]*)/pag([0-9]*)\/?$ produtos-categoria.php?pag=$2&slug=$1
+RewriteRule ^tratamentos/([A-Za-z0-9-]*)\/?$ tratamentos-categoria.php?slug=$1
+RewriteRule ^tratamentos/([A-Za-z0-9-]*)/pag([0-9]*)\/?$ tratamentos-categoria.php?pag=$2&slug=$1
 
-RewriteRule ^produtos\/?$ produtos.php
-RewriteRule ^produtos/pag([0-9]*)\/?$ produtos.php?pag=$1
-RewriteRule ^produtos/([A-Za-z0-9-]*)\-([0-9]*)\/?$ produtos-detalhe.php?ref=$2&slug=$1
+RewriteRule ^tratamentos\/?$ tratamentos.php
+RewriteRule ^tratamentos/pag([0-9]*)\/?$ tratamentos.php?pag=$1
+RewriteRule ^tratamentos/([A-Za-z0-9-]*)\-([0-9]*)\/?$ tratamentos-detalhe.php?ref=$2&slug=$1
 
 #RewriteCond %{REQUEST_URI} /+[^\.]+$RewriteRule ^(.+[^/])$ %{REQUEST_URI}/ [R=301,L]
 </IfModule>

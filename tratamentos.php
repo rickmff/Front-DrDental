@@ -5,21 +5,25 @@ require 'cms/classes/class.conndatabase.php';
 require 'cms/classes/functions.php';
 ?>
 <!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="pt-br" itemscope itemtype="http://schema.org/WebPage"> <!--<![endif]-->
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="pt-br" itemscope itemtype="http://schema.org/WebPage"> <!--<![endif]-->
 <head>
-    <? include('includes/metas.php');?>
-    
-    <? include('includes/css.php');?>
+    <? include('includes/metas.php'); ?>
+
+    <? include('includes/css.php'); ?>
 </head>
 
 <body>
 
-<? include('includes/header.php');?>
+<? include('includes/header.php'); ?>
 
-<?
+<? /*
 
 //====== CONFIGURA PAGINACAO =====//
 		$nome_da_pagina = 'produtos/'; // Nome da página que listará resultado
@@ -44,7 +48,7 @@ require 'cms/classes/functions.php';
 		  $inicio = ($pag - 1) * $itens_por_pagina;
 		}
 
-		/* NUMERO DE REGISTROS DA TABELA */
+		/* NUMERO DE REGISTROS DA TABELA
 		$busca_total = mysql_query("SELECT COUNT(*) as total FROM ".$tabela_sql.' '.$where_sql.' '.$orderby_sql);
 		$total = mysql_fetch_array($busca_total); $total = $total['total']; 
 
@@ -57,7 +61,7 @@ require 'cms/classes/functions.php';
 		$resResult = mysql_query("SELECT * FROM ".$tabela_sql.' '.$where_sql.' '.$orderby_sql." LIMIT $inicio, $itens_por_pagina");
 		$ativaProxAnt = true;
 		
-		// ativa o botão ANTERIOR
+		/* ativa o botão ANTERIOR
 		if ($pag>1 && $ativaProxAnt==true){
 			$paginacao = '<a class="'.$class_page.'" href="'.$nome_da_pagina.$variavel_pag_url.$ant.'" >&laquo; Anterior</a>';
 		}
@@ -110,7 +114,7 @@ require 'cms/classes/functions.php';
 			}
 		}
 		
-		// ativa o botão PRÓXIMA
+		/* ativa o botão PRÓXIMA
 		if ($prox <= $ultima_pag && $ultima_pag > 2  && $ativaProxAnt==true){
 			$paginacao .= '<a class="'.$class_page.'" href="'.$nome_da_pagina.$variavel_pag_url.$prox.'">pr&oacute;xima &raquo;</a>';
 		}
@@ -120,63 +124,91 @@ require 'cms/classes/functions.php';
 #########################################
 			
 
-?>
+*/ ?>
 
 
-<div class="page page_produtos"> <!--Elemento de formatação-->
+<section class="tratamentos-page"> <!--Elemento de formatação-->
 
-<div class="container">
-    <div class="row">
-		<div class="col-md-12">
-            <h1>Produtos</h1>
-        </div>
-    </div>
-    
-    <div class="row">
-	
-    <? if(mysql_num_rows($resResult)){?>
-		<? while ($rowProd = mysql_fetch_array($resResult)) {?>
-        
-            <div class="col-md-3">
-                <div class="produto">
-                <a href="produto/<?=cleanString($rowProd['nome_prod']).'-'.$rowProd['id_prod']?>">
-                    <? if($rowProd['thumb_prod']){?>
-                        <img src="uploads/produtos/thumb_<?=$rowProd['thumb_prod']?>" class="img-resopnsive" alt="<?=$rowProd['nome_prod']?>" />
-                    <? } else { ?>
-                        <img src="img/semfoto.jpg" />
-                    <? } ?>
-                    <br>
-                </a>
-                    <p><?=$rowProd['nome_prod']?></p>
-                    <br>
-                    <a href="produto/<?=cleanString($rowProd['nome_prod']).'-'.$rowProd['id_prod']?>" class="btn">Detalhes</a>
-                    
+    <section class="tratamentos">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8">
+                    <div class="breadcrumb"><span><a href="./">Home </a> / Tratamentos Odontológicos</span></div>
+                    <h1>
+                        Todos Nosso <br><span>Tratamentos Odontológicos</span>
+                    </h1>
+                    <p>Os tratamentos preventivos são exames periódicos que vão diagnosticar com antecedência
+                        problemas da saúde bucal, evitando um agravamento posterior.</p>
+                    <ul class="row justify-content-between">
+                        <li><a href="tratamentos">
+                                <img src="assets/images/icon-tratamento-estetica.png"
+                                     alt="Icone tratamento estéticos Doutor Dental">
+                                <h3>Estética</h3>
+                            </a>
+                        </li>
+                        <li><a href="tratamentos">
+                                <img src="assets/images/icon-tratamento-ortodontia-blue.png"
+                                     alt="Icone tratamento ortodonticos Doutor Dental">
+                                <h3>Ortodontia</h3>
+                            </a>
+                        </li>
+                        <li><a href="tratamentos">
+                                <img src="assets/images/icon-tratamento-clinico-blue.png"
+                                     alt="Icone tratamento clinicos Doutor Dental">
+                                <h3>Clínico</h3>
+                            </a>
+                        </li>
+                        <li><a href="tratamentos">
+                                <img src="assets/images/icon-tratamento-implantes-blue.png"
+                                     alt="Icone tratamento de implantes Doutor Dental">
+                                <h3>Implantes</h3>
+                            </a>
+                        </li>
+                        <li><a href="tratamentos">
+                                <img src="assets/images/icon-tratamento-outros-blue.png"
+                                     alt="Icone outros tratamentos  Doutor Dental">
+                                <h3>Outros</h3>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        
-        <? } ?>
-        
-        <div class="row"><div class="col-md-12"><div class="paginacao"><?=$paginacao?></div></div></div>
+        </div>
+    </section>
 
+    <section class="tratamento">
+        <div class="container">
+            <h2>Estética</h2>
+            <div class="row">
+                <? for ($i = 0; $i < 4; $i++) { ?>
+                    <div class="col-md-6 my-4">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="assets/images/tratamento.jpg" alt="Tratamento Estético Doutor Dental">
+                            </div>
+                            <div class="col-md-6 m-auto">
+                                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit... </h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit...</p>
+                            </div>
+                        </div>
+                    </div>
+                <? } ?>
+            </div>
+            <div class="row justify-content-end">
+                <a class="btn-voltar" href="./"><img src="assets/images/voltar.png" alt="Botão voltar para a Home da Doutor Dental"></a>
+            </div>
+        </div>
+    </section>
 
-    <? } else { ?>
-    <div class="row">
-    	<div class="col-md-12">
-			<p>Nenhuma produto cadastrado no momento.</p>
-	    </div>
-    </div>	
-    <? } ?>
-        
-    </div>
-</div>
+</section> <!--Fim do elemento de formatação-->
 
-</div> <!--Fim do elemento de formatação-->
+<? include('includes/newsletter.php'); ?>
 
-<? include('includes/footer.php');?>
+<? include('includes/footer.php'); ?>
 
-<? include('includes/js.php');?>
+<? include('includes/js.php'); ?>
 
-<? include('includes/analytics.php');?>
+<? include('includes/analytics.php'); ?>
 
 </body>
 </html>

@@ -23,13 +23,13 @@ require 'cms/classes/functions.php';
 </head>
 
 <body>
-
+<? include('includes/whatsapp-window.php');?>
+<? include('includes/formConsulta.php');?>
 <? include('includes/header.php'); ?>
 
 <? include('includes/slider.php'); ?>
 
 <section class="home"> <!--Elemento de formatação-->
-
     <section class="clinica">
         <div class="container">
             <div class="row">
@@ -47,10 +47,12 @@ require 'cms/classes/functions.php';
                     </p>
                     <a href="quemsomos" class="btn my-5">Conheça a clínica</a>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-left">
                     <div class="sliders">
                         <? for ($i = 0; $i < 3; $i++) { ?>
-                            <img src="assets/images/consultorio.png" alt="Consultorio da Doutor Dental">
+                            <a href="assets/images/consultorio.png" class="zoom">
+                                <img src="assets/images/consultorio.png" alt="Consultorio da Doutor Dental">
+                            </a>
                         <? } ?>
                     </div>
                 </div>
@@ -68,30 +70,35 @@ require 'cms/classes/functions.php';
                     <p>Os tratamentos preventivos são exames periódicos que vão diagnosticar com antecedência
                         problemas da saúde bucal, evitando um agravamento posterior.</p>
                     <ul class="row justify-content-between">
-                        <li>
-                            <img src="assets/images/icon-tratamento-estetica.png"
-                                 alt="Icone tratamento estéticos Doutor Dental">
-                            <h3>Estética</h3>
+                        <li><a href="tratamentos">
+                                <img src="assets/images/icon-tratamento-estetica.png"
+                                     alt="Icone tratamento estéticos Doutor Dental">
+                                <h3>Estética</h3>
+                            </a>
                         </li>
-                        <li>
-                            <img src="assets/images/icon-tratamento-ortodontia.png"
-                                 alt="Icone tratamento ortodonticos Doutor Dental">
-                            <h3>Ortodontia</h3>
+                        <li><a href="tratamentos">
+                                <img src="assets/images/icon-tratamento-ortodontia.png"
+                                     alt="Icone tratamento ortodonticos Doutor Dental">
+                                <h3>Ortodontia</h3>
+                            </a>
                         </li>
-                        <li>
-                            <img src="assets/images/icon-tratamento-clinico.png"
-                                 alt="Icone tratamento clinicos Doutor Dental">
-                            <h3>Clínico</h3>
+                        <li><a href="tratamentos">
+                                <img src="assets/images/icon-tratamento-clinico.png"
+                                     alt="Icone tratamento clinicos Doutor Dental">
+                                <h3>Clínico</h3>
+                            </a>
                         </li>
-                        <li>
-                            <img src="assets/images/icon-tratamento-implantes.png"
-                                 alt="Icone tratamento de implantes Doutor Dental">
-                            <h3>Implantes</h3>
+                        <li><a href="tratamentos">
+                                <img src="assets/images/icon-tratamento-implantes.png"
+                                     alt="Icone tratamento de implantes Doutor Dental">
+                                <h3>Implantes</h3>
+                            </a>
                         </li>
-                        <li>
-                            <img src="assets/images/icon-tratamento-outros.png"
-                                 alt="Icone outros tratamentos  Doutor Dental">
-                            <h3>Outros</h3>
+                        <li><a href="tratamentos">
+                                <img src="assets/images/icon-tratamento-outros.png"
+                                     alt="Icone outros tratamentos  Doutor Dental">
+                                <h3>Outros</h3>
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -102,57 +109,57 @@ require 'cms/classes/functions.php';
     <section class="agendar">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 align-self-center">
-                    <div class="row container">
+                <div class="col-md-7 align-self-center">
+                    <div class="row container mb-4">
                         <img class="mr-3" src="assets/images/icon-agendar.png" alt="Icone clinica - Doutor Dental">
-                        <h2>Agende <br><span>Sua Consulta</span></h2>
+                        <h2>Agende<br><span>Sua Consulta</span></h2>
                     </div>
 
                     <form class="form-style" name="formContato" id="formContato" action="javascript:" method="post"
                           onsubmit="enviaContato();">
                         <div class="row">
-                            <div class="col-md-4 mt-3">
+                            <div class="col-md-4 mt-3 pr-1">
                                 <div class="form-group">
                                         <span class="input input--chisato">
                                             <input required="" class="input__field input__field--chisato" type="text"
                                                    name="nome" id="nome">
                                             <label class="input__label input__label--chisato">
                                                 <span class="input__label-content input__label-content--chisato"
-                                                      data-content="NOME:">NOME:</span>
+                                                      data-content="Nome:">Digite seu Nome:</span>
                                             </label>
                                         </span>
                                 </div>
                             </div>
-                            <div class="col-md-4 mt-3">
+                            <div class="col-md-4 mt-3 px-md-1">
                                 <div class="form-group">
                                         <span class="input input--chisato">
                                             <input required="" class="input__field input__field--chisato" type="text"
                                                    name="email" id="email">
                                             <label class="input__label input__label--chisato">
                                                 <span class="input__label-content input__label-content--chisato"
-                                                      data-content="SEU EMAIL:">SEU EMAIL:</span>
+                                                      data-content="E-mail:">Digite seu Email:</span>
                                             </label>
                                         </span>
                                 </div>
                             </div>
-                            <div class="col-md-4 mt-3">
+                            <div class="col-md-4 mt-3 pl-md-1">
                                 <div class="form-group">
                                         <span class="input input--chisato">
                                             <input required="" class="input__field input__field--chisato mask_phone"
                                                    type="text" name="telefone" id="telefone">
                                             <label class="input__label input__label--chisato">
                                                 <span class="input__label-content input__label-content--chisato"
-                                                      data-content="TELEFONE:">TELEFONE:</span>
+                                                      data-content="Celular:">Digite seu Celular:</span>
                                             </label>
                                         </span>
                                 </div>
                             </div>
                         </div>
                     </form>
-                    <button class="btn w-100">Agendar Consulta</button>
+                    <button class="btn mt-2 w-100">Agendar Consulta</button>
                 </div>
 
-                <div class="col-md-6 d-flex justify-content-center">
+                <div class="col-md-5 d-flex justify-content-center">
                     <img class="medica" src="assets/images/medica.png" alt="Oftalmologista Doutora Dental">
                 </div>
             </div>
@@ -164,20 +171,10 @@ require 'cms/classes/functions.php';
             <div class="container row">
                 <img class="mr-3" src="assets/images/icon-blog.png" alt="Icone Blog nossas novidades Doutor Dental">
                 <h2>Blog<br><span>Nossas Novidades</span></h2>
+                <div class="d-inline-block ml-auto mt-4"><a class="btn" href="blog">+</a></div>
             </div>
             <div class="row mt-5">
-                <? for ($i = 0; $i < 3; $i++) { ?>
-                    <div class="col-md-4">
-                        <img class="img-fluid" src="assets/images/blog.jpg" alt="Imagem do Blog Doutora Dental">
-                        <br>
-                        <h4 class="pl-1">LOREM IPSUM DOLOR SIT AMET, CONSECTETUR
-                            ADIPISCING ELIT. NULLA QUAM VELIT...</h4>
-                        <br>
-                        <p class="pl-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu
-                            pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.
-                        </p>
-                    </div>
-                <? } ?>
+                <? include('includes/blog-divs.php'); ?>
             </div>
         </div>
     </section>

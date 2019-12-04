@@ -1,0 +1,29 @@
+section.quemsomos {
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  h2 {
+    font-size: 25px;
+    font-weight: bold;
+    color: $blue-dark;
+    padding-top: 7rem;
+    padding-bottom: 30px;
+  }
+
+  .btn {
+    margin-top: 45px;
+  }
+
+  .desc-sobre {
+    background: #eeeff0;
+    overflow: hidden;
+    position: relative;
+    height: 600px;
+
+    p {
+      font-size: 16px;
+      line-height: 1.5rem;
+      padding-right: 5rem;
+    }
+  }
+}

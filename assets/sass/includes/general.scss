@@ -14,19 +14,7 @@ body {
   }
 }
 
-h1 {
-  font: {
-    family: $main-font;
-    size: 45px;
-    weight: 900;
-  }
-  color: $blue-dark;
-  span {
-    color: $blue-medium;
-  }
-}
-
-h2 {
+h1, h2 {
   font: {
     family: $main-font;
     size: 40px;
@@ -62,24 +50,63 @@ span .light {
 }
 
 p {
+  font-family: $main-font;
   font-size: 18px;
   color: #676767;
 }
 
 a {
-  &:hover{
-  text-decoration: none;
+  font-family: $main-font;
+  &:hover {
+    text-decoration: none;
+    color: $blue-light;
+  }
+}
+
+.breadcrumb {
+  justify-content: center !important;
+  background-color: transparent;
+  span {
+    background-color: white;
+    border-radius: 25px;
+    padding: 8px 10px 8px 10px;
+    text-decoration: #001a5a;
+    font-size: 12px;
+    color: black !important;
+  }
+  a {
+    color: black;
+  }
+  a:hover {
+    color: $blue-light;
+    text-decoration: $blue-light;
   }
 }
 
 .btn {
+  font-family: $main-font;
   font-size: 18px;
   font-weight: bold;
   color: $white;
   background: $blue-dark;
   border-radius: 25px;
-  padding: 10px 20px 10px 20px;
+  padding: 10px 25px 10px 25px;
   text-transform: uppercase;
+  transition: 0.3s ease-out;
+
+  &:hover {
+    transition: 0.3s ease-in;
+    color: $blue-dark;
+    background-color: $blue-light;
+  }
+}
+.zoom {
+  transition: 0.5s ease-in-out;
+}
+.zoom:hover {
+  transition: 0.5s ease-in-out;
+  border: 1px solid white;
+  opacity: 0.8;
 }
 
 @mixin hover-left-right($time, $cor, $cor2: null) {
@@ -90,6 +117,126 @@ a {
   transition: background-position $time ease-in-out;
   &:hover {
     background-position: left bottom;
+  }
+}
+
+form.form-style {
+  .form-group {
+    margin-bottom: .5rem;
+
+    @include breakpoint() {
+      margin-bottom: 1.6rem;
+    }
+  }
+
+  span {
+    color: $black;
+  }
+
+  input {
+    font: {
+      family: $main-font;
+      size: 18px;
+    }
+    border-radius: 25px;
+    color: $blue-dark;
+    height: 49px;
+    padding-left: 10px;
+    background-color: white;
+  }
+
+  span label {
+    color: #626262;
+    text-transform: capitalize;
+    font-size: 18px;
+  }
+
+  .input {
+    width: 100%;
+    margin: 0;
+  }
+
+  .input--chisato {
+    padding-top: 0;
+  }
+
+  .input__label--chisato {
+    top: -38px;
+  }
+
+  .input__label-content--chisato {
+    font: {
+      family: $main-font;
+      size: 18px;
+    }
+  ;
+    color: $blue-dark;
+  }
+
+  .input__field--chisato:focus, .input--filled .input__field--chisato {
+    border-color: white;
+  }
+
+  .input__label-content--chisato::after {
+    color: $blue-dark;
+  }
+}
+
+section.newsletter {
+  background-color: $blue-dark;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+
+  .input__label-content--chisato::after {
+    color: $white;
+  }
+
+  .input__label--chisato {
+    top: -37px;
+  }
+
+  .input__label-content--chisato {
+    padding: 1px 1em;
+  }
+
+  h2 {
+    padding-top: 1rem;
+    color: white;
+  }
+
+  .btn {
+    background-color: $blue-medium;
+    &:hover {
+      background-color: $blue-light;
+      color: $blue-dark;
+    }
+  }
+}
+
+section.tratamentos {
+  background: $blue-dark;
+  text-align: center;
+  h2 {
+    color: white;
+  }
+  span {
+    color: $blue-light;
+  }
+  p {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    color: white;
+  }
+  li {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    &:hover {
+      opacity: 0.7;
+    }
+
+    h3 {
+      margin-top: 1rem;
+    }
   }
 }
 

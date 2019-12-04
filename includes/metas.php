@@ -56,7 +56,7 @@ switch($cur_page){
 		//$Header_Description = '';
 	break;
 	
-	case 'empresa.php':
+	case 'quemsomos.php':
 		$Header_Title = 'Sobre a '.$Header_NomeEmpresa;
 		//$Header_Description = '';
 	break;
@@ -79,7 +79,7 @@ switch($cur_page){
 		$Header_Description = Reduz(strip_tags($rowMT['desc_cat']),50);
 	break;
 
-	case 'fale-conosco.php':
+	case 'contato.php':
 		$Header_Title = 'Fale Conosco '.$Header_NomeEmpresa;
 		$Header_Description = 'Quer conhecer melhor nossa empresa, entre em contato conosco através do nosso telefone, ou se preferir envie uma mensagem pelo nosso site.';
 	break;

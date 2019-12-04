@@ -1,5 +1,9 @@
 section.home {
 
+  h1 {
+    font-size: 45px;
+  }
+
   section {
     padding-top: 5rem;
     padding-bottom: 5rem;
@@ -8,30 +12,6 @@ section.home {
   section.clinica {
     p {
       margin-top: 3rem;
-    }
-  }
-
-  section.tratamentos {
-    background: $blue-dark;
-    text-align: center;
-    h2 {
-      color: white;
-    }
-    span {
-      color: $blue-light;
-    }
-    p {
-      margin-top: 3rem;
-      margin-bottom: 3rem;
-      color: white;
-    }
-    li {
-      margin-top: 3rem;
-      margin-bottom: 3rem;
-
-      h3 {
-        margin-top: 1rem;
-      }
     }
   }
 
@@ -48,6 +28,9 @@ section.home {
     span {
       color: $blue-light;
     }
+    form.form-style span{
+      color: #8c8c8c;
+    }
     .btn {
       color: $blue-medium;
       background-color: $blue-light;
@@ -55,6 +38,24 @@ section.home {
   }
 
   section.blog {
+    a {
+      transition: 0.3s ease-in-out;
+    }
+    a:hover {
+      transition: 0.3s ease-in-out;
+      opacity: 0.7;
+    }
+
+    img {
+      border-radius: 25px;
+    }
+    .btn {
+      background-color: $blue-medium;
+      &:hover {
+        background-color: $blue-dark;
+        color: $blue-light;
+      }
+    }
     h4 {
       margin-top: 1rem;
     }
