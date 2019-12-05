@@ -23,8 +23,16 @@ require 'cms/classes/functions.php';
 
 <? include('includes/header.php'); ?>
 
-<div class="blog"> <!--Elemento de formatação-->
+<section class="titulo">
+    <div class="container">
+        <div class="text-center">
+            <div class="breadcrumb"><span><a href="./">Home </a> / Blog</span></div>
+            <h1>Blog</h1>
+        </div>
+    </div>
+</section>
 
+<section class="blog"> <!--Elemento de formatação-->
     <div class="container">
         <div class="row my-5">
             <? include('includes/blog-divs.php'); ?>
@@ -33,8 +41,7 @@ require 'cms/classes/functions.php';
             <? include('includes/blog-divs.php'); ?>
         </div>
     </div>
-
-</div> <!--Fim do elemento de formatação-->
+</section> <!--Fim do elemento de formatação-->
 
 <? include('includes/footer.php'); ?>
 

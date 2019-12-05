@@ -47,7 +47,7 @@ require 'cms/classes/functions.php';
                     </p>
                     <a href="quemsomos" class="btn my-5">Conheça a clínica</a>
                 </div>
-                <div class="col-md-6" data-aos="fade-left">
+                <div class="col-md-6">
                     <div class="sliders">
                         <? for ($i = 0; $i < 3; $i++) { ?>
                             <a href="assets/images/consultorio.png" class="zoom">

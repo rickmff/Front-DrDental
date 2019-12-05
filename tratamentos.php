@@ -182,20 +182,24 @@ require 'cms/classes/functions.php';
             <div class="row">
                 <? for ($i = 0; $i < 4; $i++) { ?>
                     <div class="col-md-6 my-4">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <img src="assets/images/tratamento.jpg" alt="Tratamento Estético Doutor Dental">
+                        <a href="tratamento-detalhe">
+                            <div class="row hover-opacity-6">
+                                <div class="col-md-6">
+                                    <img src="assets/images/tratamento.jpg" alt="Tratamento Estético Doutor Dental">
+                                </div>
+                                <div class="col-md-6 m-auto">
+                                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam
+                                        velit... </h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit...</p>
+                                </div>
                             </div>
-                            <div class="col-md-6 m-auto">
-                                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit... </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit...</p>
-                            </div>
-                        </div>
+                        </a>
                     </div>
                 <? } ?>
             </div>
             <div class="row justify-content-end">
-                <a class="btn-voltar" href="./"><img src="assets/images/voltar.png" alt="Botão voltar para a Home da Doutor Dental"></a>
+                <a class="btn-voltar" href="./"><img src="assets/images/voltar.png"
+                                                     alt="Botão voltar para a Home da Doutor Dental"></a>
             </div>
         </div>
     </section>

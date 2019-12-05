@@ -1,0 +1,43 @@
+section.blog {
+  a {
+    transition: 0.7s ease-in-out;
+  }
+  a:hover {
+    h4, img, p {
+      opacity: 0.7;
+      transition: 0.3s ease-in-out;
+    }
+  }
+
+  img {
+    border-radius: 25px;
+  }
+  .btn {
+    background-color: $blue-medium;
+    &:hover {
+      background-color: $blue-dark;
+      color: $blue-light;
+    }
+  }
+  h4 {
+    margin-top: 1rem;
+  }
+
+  section.post {
+    margin-top: 5rem;
+    margin-bottom: 1.5rem;
+
+    h2 {
+      margin-bottom: 2rem;
+    }
+    p {
+      line-height: 1.3rem;
+      text-align: justify;
+      margin-bottom: 2rem;
+    }
+    img {
+      margin-bottom: 2rem;
+    }
+  }
+
+}

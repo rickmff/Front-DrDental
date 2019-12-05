@@ -2,7 +2,7 @@ header {
   background-color: $blue-dark;
   width: 100%;
   height: 200px;
-  padding: 2rem;
+  padding: 2.75rem;
 
   nav {
     width: 100%;
@@ -69,6 +69,38 @@ header {
     &:hover {
       background: $blue-light;
       color: $blue-dark;
+    }
+  }
+
+  .retract {
+    position: fixed !important;
+    background-color: $blue-dark;
+    margin-top: 0;
+    margin-bottom: 0;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    transition: 0.1s ease-in-out;
+    padding-right: 4.5rem;
+    padding-left: 6.5rem;
+    transition: 0.3s ease-in;
+    .logo {
+      transform: scale(0.8);
+    }
+    .logo {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    .icons-header {
+      display: none;
+    }
+    .btn {
+      transition: 0.1s ease-in-out;
+      margin-right: 4rem;
+
+      @include breakpoint() {
+        margin-right: -0.75rem !important;
+      }
     }
   }
 }

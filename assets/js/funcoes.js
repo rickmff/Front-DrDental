@@ -43,10 +43,8 @@ function delLoading() {
 $(document).on("scroll", function () {
     if ($(document).scrollTop() > 80) {
         $("#menu").addClass("retract");
-        $("#bg-header").addClass("color-white");
     } else {
         $("#menu").removeClass("retract");
-        $("#bg-header").removeClass("color-white");
     }
 });
 

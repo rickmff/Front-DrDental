@@ -150,7 +150,9 @@ RewriteRule ^tratamentos/([A-Za-z0-9-]*)/pag([0-9]*)\/?$ tratamentos-categoria.p
 
 RewriteRule ^tratamentos\/?$ tratamentos.php
 RewriteRule ^tratamentos/pag([0-9]*)\/?$ tratamentos.php?pag=$1
-RewriteRule ^tratamentos/([A-Za-z0-9-]*)\-([0-9]*)\/?$ tratamentos-detalhe.php?ref=$2&slug=$1
+RewriteRule ^tratamento/([A-Za-z0-9-]*)\-([0-9]*)\/?$ tratamentos-detalhe.php?ref=$2&slug=$1
+RewriteRule ^tratamento-detalhe\/?$ tratamento-detalhe.php
+
 
 #RewriteCond %{REQUEST_URI} /+[^\.]+$RewriteRule ^(.+[^/])$ %{REQUEST_URI}/ [R=301,L]
 </IfModule>
