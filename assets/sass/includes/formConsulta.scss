@@ -4,7 +4,7 @@ $gray-label: #495057;
 
 .open-formConsulta {
   //display: none;
-  .cotacao-elem {
+  .consulta-elem {
     display: none;
   }
   &.modal-form {
@@ -14,7 +14,7 @@ $gray-label: #495057;
     bottom: 60px;
     right: 3vh;
     width: 300px;
-    height: 405px;
+    height: 420px;
     color: white;
     animation: moveDivUp 1s;
     z-index: 9999;
@@ -22,7 +22,7 @@ $gray-label: #495057;
       right: 2vh;
     }
 
-    .header-cotacao {
+    .header-consulta {
       background: $blue-dark;
       border-radius: 5px 0 0;
       padding: 5px 35px 0;
@@ -34,10 +34,6 @@ $gray-label: #495057;
       }
 
       .close-window {
-        position: absolute;
-        right: -5px;
-        top: -5px;
-
         a {
           color: $white;
 
@@ -69,11 +65,14 @@ $gray-label: #495057;
   }
 
   .btn {
-    background-color: #F0993B;
+    background-color: $blue-medium;
     color: white;
+    &:hover {
+      background-color: $blue-light;
+    }
   }
 
-  .form-cotacao {
+  .form-consulta {
     margin-top: 10px;
 
     .form-group {
@@ -88,7 +87,7 @@ $gray-label: #495057;
     .iniciar-conversa {
       margin-top: 15px;
 
-      .link-contacao {
+      .link-consulta {
         @include font('Raleway', 15, 700);
         text-transform: uppercase;
         transition: all .4s;

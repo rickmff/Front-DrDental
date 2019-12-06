@@ -3,7 +3,7 @@ $("a.open-consulta-window").click(function (event) {
     event.preventDefault();
 });
 
-$(".open-formConsulta.close-window").click(function (event) {
+$(".open-formConsulta .close-window").click(function (event) {
     $(".open-formConsulta").hide();
     event.preventDefault();
 });
@@ -42,7 +42,7 @@ const enviaConsultaWindow = () => {
             success: function (data) {
                 if (!data.ErroEnvio) {
                     /*ga('send', 'event', 'envio-contato');*/
-                    let msg_retorno = data.nome + ', recebemos a sua solicitação de cotação! Retornaremos em breve.';
+                    let msg_retorno = data.nome + ', recebemos a sua solicitação de consulta! Retornaremos em breve.';
                     alert(msg_retorno);
                     // $('#retorno_msg_consulta_rodape').html('<div class="alert alert-success">' + msg_retorno + '</div>');
                     $(".open-formConsulta").hide();

@@ -103,11 +103,13 @@ section.titulo {
   padding: 10px 25px 10px 25px;
   text-transform: uppercase;
   transition: 0.3s ease-out;
+  border: 0;
 
   &:hover {
     transition: 0.3s ease-in;
     color: $blue-dark;
     background-color: $blue-light;
+    border: 0;
   }
 }
 
@@ -204,30 +206,41 @@ section.newsletter {
   background-color: $blue-dark;
   padding-top: 5rem;
   padding-bottom: 5rem;
-
   .input__label-content--chisato::after {
     color: $white;
   }
-
   .input__label--chisato {
     top: -20px;
     left: 15px;
   }
-
   .input__label-content--chisato {
     padding: 1px 1em;
   }
-
   h2 {
     padding-top: 1rem;
     color: white;
   }
-
   .btn {
     background-color: $blue-medium;
     &:hover {
       background-color: $blue-light;
       color: $blue-dark;
+    }
+  }
+  @include breakpoint() {
+    text-align: center;
+    h2 {
+      margin-bottom: 2rem;
+    }
+    img {
+      margin-left: auto;
+      margin-right: auto !important;
+    }
+    .row:first-child {
+      padding-left: 15px;
+    }
+    .btn {
+      width: 100%;
     }
   }
 }
@@ -246,6 +259,9 @@ section.tratamentos {
     margin-bottom: 3rem;
     color: white;
   }
+  ul {
+    transform: scale(0.9);
+  }
   li {
     margin-top: 3rem;
     margin-bottom: 3rem;
@@ -255,6 +271,20 @@ section.tratamentos {
 
     h3 {
       margin-top: 1rem;
+    }
+  }
+  @include breakpoint() {
+    li {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      &:nth-child(4) {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      &:nth-child(5) {
+        margin-left: auto;
+        margin-right: auto;
+      }
     }
   }
 }
@@ -311,7 +341,6 @@ section.message {
     padding: 20px 0;
     @include hover-left-right(.5s, $yellow);
   }
-
 
   .form-control:focus {
     box-shadow: 0 0 0 0.1rem rgba(16, 33, 42, .2);
@@ -475,7 +504,7 @@ ul.slick-dots {
 .show-mobile {
   display: none;
   @include breakpoint {
-    display: block !important;
+    display: inline !important;
   }
 }
 
@@ -490,9 +519,9 @@ ul.slick-dots {
   opacity: 1 !important;
 }
 
-.gotop {
-  background: $gray-bg;
-  padding: .5em;
+.gotop, .gowhats {
+  background: $black;
+  padding: 1em;
   position: fixed;
   bottom: 0;
   right: 2em;
@@ -501,6 +530,31 @@ ul.slick-dots {
   opacity: 0;
   color: $white;
   transition: all .4s;
+  z-index: 2;
+
+  @include breakpoint(){
+    right: 1em;
+  }
+}
+
+.gowhats{
+  border-radius: 50%;
+  background: #00A859;
+  padding: .3em .4em;
+  font-size: 30px;
+  bottom: 6rem;
+  right: .8em;
+  @include breakpoint(){
+    right: 8.5em;
+    left: .4em;
+    bottom: 1rem;
+    width: 52px;
+    height: 50px;
+  }
+
+  a{
+    color: $white;
+  }
 }
 
 

@@ -20,7 +20,8 @@ require 'cms/classes/functions.php';
 </head>
 
 <body>
-
+<? include('includes/whatsapp-window.php'); ?>
+<? include('includes/formConsulta.php'); ?>
 <? include('includes/header.php'); ?>
 
 <section class="quemsomos"> <!--Elemento de formatação-->
@@ -29,7 +30,7 @@ require 'cms/classes/functions.php';
         <div class="container">
             <div class="text-center">
                 <div class="breadcrumb"><span><a href="./">Home </a> / Quem Somos</span></div>
-                <h1>Clínica Doutor Dental</h1>
+                <h1>Quem Somos</h1>
             </div>
         </div>
     </section>
@@ -64,7 +65,13 @@ require 'cms/classes/functions.php';
                                 </p>
                             </div>
                             <div class="col-md-7 hidden-mobile">
-                                <img src="assets/images/consultorio.png" alt="Clínica Doutor Dental">
+                                <div class="sliders">
+                                    <? for ($i = 0; $i < 3; $i++) { ?>
+                                        <a href="assets/images/consultorio.png" class="zoom">
+                                            <img src="assets/images/consultorio.png" alt="Consultorio da Doutor Dental">
+                                        </a>
+                                    <? } ?>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -112,7 +119,7 @@ require 'cms/classes/functions.php';
             <div class="d-flex justify-content-center">
                 <div class="col-12 col-md-10">
                     <div class="row">
-                        <div class="col-12">
+                        <div class="col-12 mb-4">
                             <h2>Diferenciais Doutor Dental</h2>
                         </div>
                         <div class="col-md-3">
@@ -131,7 +138,7 @@ require 'cms/classes/functions.php';
                             <i class="fas fa-3x fa-check-circle"></i>
                             <h3>Ética</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate
-                                eu</p>
+                            </p>
                         </div>
                         <div class="col-md-3">
                             <i class="fas fa-3x fa-check-circle"></i>

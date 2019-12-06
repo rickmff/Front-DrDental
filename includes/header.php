@@ -63,7 +63,7 @@
                             <li><a href="contato" class="<?php if ($cur_page == 'contato.php') {
                                     echo 'menu-active';
                                 } ?>">Contato</a></li>
-                            <li class="ml-5"><a href=":javascript" class="btn">Agende uma consulta</a></li>
+                            <li class="ml-md-5"><a href="javascript:" class="btn open-consulta-window">Agende uma consulta</a></li>
                         </ul>
                     </div>
                 </div>

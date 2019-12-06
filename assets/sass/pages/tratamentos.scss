@@ -21,6 +21,16 @@ section.tratamentos-page {
       margin-bottom: 0;
       color: #676767;;
     }
+    @include breakpoint() {
+      background-size: cover;
+      p {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+      }
+      ul {
+        transform: scale(0.9);
+      }
+    }
   }
 
   section.tratamento {
@@ -64,6 +74,7 @@ section.tratamentos-page {
       float: right;
       width: 100%;
       height: auto;
+      border-radius: 25px;
     }
     p {
       font-size: 16px;
@@ -79,5 +90,4 @@ section.tratamentos-page {
       }
     }
   }
-
 }

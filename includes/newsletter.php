@@ -20,7 +20,7 @@
                                                    name="nome" id="nome">
                                             <label class="input__label input__label--chisato">
                                                 <span class="input__label-content input__label-content--chisato"
-                                                      data-content="Nome:">Digite seu Nome:</span>
+                                                      data-content="Nome:*">Digite seu Nome:*</span>
                                             </label>
                                         </span>
                                     </div>
@@ -32,7 +32,7 @@
                                                    name="email" id="email">
                                             <label class="input__label input__label--chisato">
                                                 <span class="input__label-content input__label-content--chisato"
-                                                      data-content="E-mail:">Digite seu E-mail:</span>
+                                                      data-content="E-mail:*">Digite seu E-mail:*</span>
                                             </label>
                                         </span>
                                     </div>

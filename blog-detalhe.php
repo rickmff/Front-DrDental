@@ -20,7 +20,8 @@ require 'cms/classes/functions.php';
 </head>
 
 <body>
-
+<? include('includes/whatsapp-window.php');?>
+<? include('includes/formConsulta.php');?>
 <? include('includes/header.php'); ?>
 
 <section class="blog"> <!--Elemento de formatação-->
@@ -28,7 +29,7 @@ require 'cms/classes/functions.php';
     <section class="titulo">
         <div class="container">
             <div class="text-center">
-                <div class="breadcrumb"><span><a href="./">Home </a> / Blog</span></div>
+                <div class="breadcrumb"><span><a href="./">Home </a> / <a href="blog-detalhe">Blog</a> / Titulo do post</span></div>
                 <h1>Blog</h1>
             </div>
         </div>
@@ -53,12 +54,14 @@ require 'cms/classes/functions.php';
                     <? include('includes/sharethis.php'); ?>
                 </div>
                 <div class="col-md-7">
+                    <a href="assets/images/consultorio.png" class="zoom">
                     <img class="img-fluid" src="assets/images/consultorio.png"
                          alt="Imagem do post da Clinica Doutor Dental">
+                    </a>
                 </div>
             </div>
             <div class="row">
-                <p class="px-md-3">
+                <p class="px-3">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate
                     eu
                     pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit
@@ -93,13 +96,13 @@ require 'cms/classes/functions.php';
                     pharetra nec, mattis ac neque.
                 </p>
             </div>
-            <div class="row pl-3">
-                <a class="btn-voltar" href="./"><img src="assets/images/voltar.png" alt="Botão voltar para a Home da Doutor Dental"></a>
+            <div class="row justify-content-end">
+                <a class="btn-voltar" href="blog"><img src="assets/images/voltar.png" alt="Botão voltar para a Home da Doutor Dental"></a>
             </div>
         </div>
     </section>
 
-    <section class="galeria">
+    <? /* section class="galeria">
         <div class="container">
             <div class="row">
                 <div class="sliders">
@@ -107,8 +110,10 @@ require 'cms/classes/functions.php';
                         <div class="row">
                             <? for ($i = 0; $i < 4; $i++) { ?>
                                 <div class="col-md-3">
+                                    <a href="assets/images/tratamento.jpg" class="zoom">
                                     <img src="assets/images/tratamento.jpg"
                                          alt="Imagem Galeria do post blog Clinica Doutor Dental">
+                                    </a>
                                 </div>
                             <? } ?>
                         </div>
@@ -116,7 +121,7 @@ require 'cms/classes/functions.php';
                 </div>
             </div>
         </div>
-    </section>
+    </section */?>
 
 </section> <!--Fim do elemento de formatação-->
 

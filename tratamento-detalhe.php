@@ -20,7 +20,8 @@ require 'cms/classes/functions.php';
 </head>
 
 <body>
-
+<? include('includes/whatsapp-window.php'); ?>
+<? include('includes/formConsulta.php'); ?>
 <? include('includes/header.php'); ?>
 
 <? /*
@@ -51,7 +52,8 @@ if (is_numeric($_GET['ref'])) {
     <section class="titulo pt-3">
         <div class="container">
             <div class="text-center">
-                <div class="breadcrumb"><span><a href="./">Home </a> / Quem Somos</span></div>
+                <div class="breadcrumb"><span><a href="./">Home </a> / <a href="tratamentos">Tratamentos</a> / Tratamento Estético</span>
+                </div>
                 <h1>Tratamento <br> <span class="text-uppercase">Estético</span></h1>
             </div>
         </div>
@@ -64,13 +66,15 @@ if (is_numeric($_GET['ref'])) {
             </div>
             <div class="row">
                 <div class="col-md-6">
-                    <img src="assets/images/tratamento.jpg"
-                         alt="Imagem de detalhe do tratamento Estético da Doutor Dental">
+                    <a href="assets/images/tratamento.jpg" class="zoom">
+                        <img src="assets/images/tratamento.jpg"
+                             alt="Imagem de detalhe do tratamento Estético da Doutor Dental">
+                    </a>
                 </div>
                 <div class="col-md-6">
                     <h3>PROCEDIMENTOS ESTÉTICOS DENTÁRIOS <br>
                         PODEM TRANSFORMAR O SEU SORRISO. <br>
-                        CONHEÇA AS MELHORES OPÇÕES PARA VOCÊ! </h3>
+                        CONHEÇA AS MELHORES OPÇÕES PARA VOCÊ!</h3>
                     <p>Tratamentos para melhorar a estética do rosto como um todo. A clínica Doutor Dental conta com
                         alinhadores
                         invisíveis, que são aparelhos ortodônticos feitos em uma forma transparente e plástica, usados
@@ -86,8 +90,13 @@ if (is_numeric($_GET['ref'])) {
                     <div class="text-center">
                         <a class="btn" href="javascript:">Agende uma consulta gratuita aqui</a>
                     </div>
+                    <div class="d-flex justify-content-end">
+                        <a class="btn-voltar" href="tratamentos"><img src="assets/images/voltar.png"
+                                                                      alt="Botão voltar para a Home da Doutor Dental"></a>
+                    </div>
                 </div>
             </div>
+        </div>
     </section>
 
 </section> <!--Fim do elemento de formatação-->

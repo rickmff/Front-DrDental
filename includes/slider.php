@@ -6,7 +6,7 @@
                 <div class="col-md-5">
                     <h1>Clínica Doutor Dental <br><span>Inovando sempre para</span><br>o seu melhor sorriso <br>
                     </h1>
-                    <a class="btn mt-3" href=":javascript">Solicitar Agendamento</a>
+                    <a class="btn mt-3" href="javascript:">Solicitar Agendamento</a>
                 </div>
             </div>
         </div>
@@ -16,7 +16,7 @@
                 <div class="col-md-5">
                     <h1>Clínica Doutor Dental <br><span>Inovando sempre para</span><br>o seu melhor sorriso <br>
                     </h1>
-                    <a class="btn mt-3" href=":javascript">Solicitar Agendamento</a>
+                    <a class="btn mt-3" href="javascript:">Solicitar Agendamento</a>
                 </div>
             </div>
         </div>

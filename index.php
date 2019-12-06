@@ -33,9 +33,9 @@ require 'cms/classes/functions.php';
     <section class="clinica">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-5">
                     <div class="container row">
-                        <img class="mr-3" src="assets/images/icon-clinica.png" alt="Icone clinica - Doutor Dental">
+                        <img class="mr-md-3" src="assets/images/icon-clinica.png" alt="Icone clinica - Doutor Dental">
                         <h2>Clínica <br> <span>Doutor Dental</span></h2>
                     </div>
                     <p>
@@ -47,7 +47,7 @@ require 'cms/classes/functions.php';
                     </p>
                     <a href="quemsomos" class="btn my-5">Conheça a clínica</a>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-7">
                     <div class="sliders">
                         <? for ($i = 0; $i < 3; $i++) { ?>
                             <a href="assets/images/consultorio.png" class="zoom">
@@ -118,7 +118,7 @@ require 'cms/classes/functions.php';
                     <form class="form-style" name="formContato" id="formContato" action="javascript:" method="post"
                           onsubmit="enviaContato();">
                         <div class="row">
-                            <div class="col-md-4 mt-3 pr-1">
+                            <div class="col-md-4 mt-3 pr-md-1">
                                 <div class="form-group">
                                         <span class="input input--chisato">
                                             <input required="" class="input__field input__field--chisato" type="text"
@@ -171,7 +171,7 @@ require 'cms/classes/functions.php';
             <div class="container row">
                 <img class="mr-3" src="assets/images/icon-blog.png" alt="Icone Blog nossas novidades Doutor Dental">
                 <h2>Blog<br><span>Nossas Novidades</span></h2>
-                <div class="d-inline-block ml-auto mt-4"><a class="btn" href="blog">+</a></div>
+                <div class="d-inline-block ml-md-auto mt-4"><a class="btn" href="blog">+</a></div>
             </div>
             <div class="row mt-5">
                 <? include('includes/blog-divs.php'); ?>

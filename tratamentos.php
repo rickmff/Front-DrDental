@@ -20,7 +20,8 @@ require 'cms/classes/functions.php';
 </head>
 
 <body>
-
+<? include('includes/whatsapp-window.php');?>
+<? include('includes/formConsulta.php');?>
 <? include('includes/header.php'); ?>
 
 <? /*

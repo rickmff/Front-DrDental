@@ -93,7 +93,8 @@ if ($sucesso == 'n') { ?>
 <? } ?>
 
 <? include('includes/header.php'); ?>
-<? include('includes/whatsapp-window.php'); ?>
+<? include('includes/whatsapp-window.php');?>
+<? include('includes/formConsulta.php');?>
 
 <section class="titulo">
     <div class="container">
@@ -120,7 +121,7 @@ if ($sucesso == 'n') { ?>
                                                    name="nome" id="nome">
                                             <label class="input__label input__label--chisato">
                                                 <span class="input__label-content input__label-content--chisato"
-                                                      data-content="NOME:">NOME:</span>
+                                                      data-content="NOME:*">NOME:*</span>
                                             </label>
                                         </span>
                                     </div>
@@ -132,7 +133,7 @@ if ($sucesso == 'n') { ?>
                                                    name="email" id="email">
                                             <label class="input__label input__label--chisato">
                                                 <span class="input__label-content input__label-content--chisato"
-                                                      data-content="SEU EMAIL:">SEU EMAIL:</span>
+                                                      data-content="SEU EMAIL:*">SEU EMAIL:*</span>
                                             </label>
                                         </span>
                                     </div>
@@ -144,7 +145,7 @@ if ($sucesso == 'n') { ?>
                                                    type="text" name="telefone" id="telefone">
                                             <label class="input__label input__label--chisato">
                                                 <span class="input__label-content input__label-content--chisato"
-                                                      data-content="TELEFONE:">TELEFONE:</span>
+                                                      data-content="TELEFONE:*">TELEFONE:*</span>
                                             </label>
                                         </span>
                                     </div>
@@ -156,7 +157,7 @@ if ($sucesso == 'n') { ?>
                                                    type="text" name="celular" id="celular">
                                             <label class="input__label input__label--chisato">
                                                 <span class="input__label-content input__label-content--chisato"
-                                                      data-content="CELULAR:">CELULAR:</span>
+                                                      data-content="CELULAR:*">CELULAR:*</span>
                                             </label>
                                         </span>
                                     </div>
@@ -168,7 +169,7 @@ if ($sucesso == 'n') { ?>
                                                    name="assunto" id="assunto">
                                             <label class="input__label input__label--chisato">
                                                 <span class="input__label-content input__label-content--chisato"
-                                                      data-content="ASSUNTO:">ASSUNTO:</span>
+                                                      data-content="ASSUNTO:*">ASSUNTO:*</span>
                                             </label>
                                         </span>
                                     </div>
@@ -180,7 +181,7 @@ if ($sucesso == 'n') { ?>
                                                       type="text" name="mensagem" id="mensagem"></textarea>
                                             <label class="input__label input__label--chisato">
                                                 <span class="input__label-content input__label-content--chisato"
-                                                      data-content="MENSAGEM:">MENSAGEM:</span>
+                                                      data-content="MENSAGEM:*">MENSAGEM:*</span>
                                             </label>
                                         </span>
                                     </div>

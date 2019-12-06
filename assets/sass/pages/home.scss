@@ -1,17 +1,17 @@
 section.home {
-
   h1 {
     font-size: 45px;
   }
-
   section {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
-
   section.clinica {
     p {
       margin-top: 3rem;
+    }
+    img {
+      border-radius: 25px;
     }
   }
 
@@ -22,18 +22,64 @@ section.home {
     background-image: url("../images/bg-agendar.jpg");
     background-repeat: no-repeat;
     background-position: center bottom;
+    background-size: cover;
+    .medica {
+      transform: scale(1.07);
+      padding-bottom: 0.9rem;
+      margin-top: -1rem;
+    }
     h2 {
       color: white;
     }
     span {
       color: $blue-light;
     }
-    form.form-style span{
+    form.form-style span {
       color: #8c8c8c;
     }
     .btn {
       color: $blue-medium;
       background-color: $blue-light;
+      &:hover {
+        background-color: $blue-dark;
+        color: white;
+      }
+    }
+  }
+  @include breakpoint() {
+    text-align: center;
+    .ml-md-auto {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    div.container.row {
+      margin-right: 0;
+      margin-left: 0;
+
+      img {
+        margin-right: auto !important;
+        margin-left: auto;
+        margin-bottom: 1.5rem;
+      }
+    }
+    section {
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+    }
+    section.clinica p {
+      margin-top: 2rem;
+    }
+    section.agendar {
+      padding-top: 3rem;
+      background-size: cover;
+      padding-bottom: 0 !important;
+      h2 {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .btn {
+        margin-bottom: 3rem;
+      }
     }
   }
 }

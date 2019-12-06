@@ -1,5 +1,5 @@
 <? for ($i = 0; $i < 3; $i++) { ?>
-    <div class="col-md-4">
+    <div class="col-md-4 mb-4">
         <a href="blog-detalhe">
             <img class="img-fluid" src="assets/images/blog.jpg" alt="Imagem do Blog Doutora Dental">
             <br>
