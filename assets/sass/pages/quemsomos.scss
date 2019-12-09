@@ -1,5 +1,4 @@
 section.quemsomos {
-
   h2 {
     margin-bottom: 2rem;
   }
@@ -29,9 +28,6 @@ section.quemsomos {
     h2, p {
       color: white;
     }
-    p {
-      font-weight: 300;
-    }
     background-color: $blue-dark;
     text-align: center;
   }
@@ -51,7 +47,6 @@ section.quemsomos {
     color: $blue-medium;
   }
   p {
-    font-weight: 300;
     padding-right: 0.7rem;
     padding-left: 0.7rem;
   }

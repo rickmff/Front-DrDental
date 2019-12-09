@@ -23,8 +23,8 @@ require 'cms/classes/functions.php';
 </head>
 
 <body>
-<? include('includes/whatsapp-window.php');?>
-<? include('includes/formConsulta.php');?>
+<? include('includes/whatsapp-window.php'); ?>
+<? include('includes/formConsulta.php'); ?>
 <? include('includes/header.php'); ?>
 
 <? include('includes/slider.php'); ?>
@@ -71,32 +71,27 @@ require 'cms/classes/functions.php';
                         problemas da saúde bucal, evitando um agravamento posterior.</p>
                     <ul class="row justify-content-between">
                         <li><a href="tratamentos">
-                                <img src="assets/images/icon-tratamento-estetica.png"
-                                     alt="Icone tratamento estéticos Doutor Dental">
+                                <div class="icone-tratamento _1"></div>
                                 <h3>Estética</h3>
                             </a>
                         </li>
                         <li><a href="tratamentos">
-                                <img src="assets/images/icon-tratamento-ortodontia.png"
-                                     alt="Icone tratamento ortodonticos Doutor Dental">
+                                <div class="icone-tratamento _2"></div>
                                 <h3>Ortodontia</h3>
                             </a>
                         </li>
                         <li><a href="tratamentos">
-                                <img src="assets/images/icon-tratamento-clinico.png"
-                                     alt="Icone tratamento clinicos Doutor Dental">
+                                <div class="icone-tratamento _3"></div>
                                 <h3>Clínico</h3>
                             </a>
                         </li>
                         <li><a href="tratamentos">
-                                <img src="assets/images/icon-tratamento-implantes.png"
-                                     alt="Icone tratamento de implantes Doutor Dental">
+                                <div class="icone-tratamento _4"></div>
                                 <h3>Implantes</h3>
                             </a>
                         </li>
                         <li><a href="tratamentos">
-                                <img src="assets/images/icon-tratamento-outros.png"
-                                     alt="Icone outros tratamentos  Doutor Dental">
+                                <div class="icone-tratamento _5"></div>
                                 <h3>Outros</h3>
                             </a>
                         </li>

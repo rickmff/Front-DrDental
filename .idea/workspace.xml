@@ -2,43 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ef34532-69d0-488b-8678-546a51e529ff" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/css/hover-min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/whatsapp-bg.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/1e79a3ca305988e21bf01384e3325b4cad0dded7/footer.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/1e79a3ca305988e21bf01384e3325b4cad0dded7/footer.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/1e79a3ca305988e21bf01384e3325b4cad0dded7/formConsulta.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/1e79a3ca305988e21bf01384e3325b4cad0dded7/formConsulta.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.sass-cache/1e79a3ca305988e21bf01384e3325b4cad0dded7/general.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/1e79a3ca305988e21bf01384e3325b4cad0dded7/general.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/1e79a3ca305988e21bf01384e3325b4cad0dded7/header.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/1e79a3ca305988e21bf01384e3325b4cad0dded7/header.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/1e79a3ca305988e21bf01384e3325b4cad0dded7/whatsapp.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/1e79a3ca305988e21bf01384e3325b4cad0dded7/whatsapp.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/e0aed8c11f2f5417f63f1e2b5a17e25cc5d3cdec/home.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/e0aed8c11f2f5417f63f1e2b5a17e25cc5d3cdec/home.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.sass-cache/e0aed8c11f2f5417f63f1e2b5a17e25cc5d3cdec/quemsomos.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/e0aed8c11f2f5417f63f1e2b5a17e25cc5d3cdec/quemsomos.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.sass-cache/e0aed8c11f2f5417f63f1e2b5a17e25cc5d3cdec/tratamentos.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/e0aed8c11f2f5417f63f1e2b5a17e25cc5d3cdec/tratamentos.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/estilos.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/estilos.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/estilos.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/estilos.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/formConsulta.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/formConsulta.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/includes/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/includes/footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/includes/formConsulta.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/includes/formConsulta.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/sass/includes/general.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/includes/general.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/includes/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/includes/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/includes/whatsapp.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/includes/whatsapp.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/pages/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/pages/home.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/sass/pages/quemsomos.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/pages/quemsomos.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/sass/pages/tratamentos.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/pages/tratamentos.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-detalhe.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog-detalhe.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contato.php" beforeDir="false" afterPath="$PROJECT_DIR$/contato.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc_categorias.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/blog-divs.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/blog-divs.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/formConsulta.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/formConsulta.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/newsletter.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/newsletter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/slider.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/slider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/whatsapp-window.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/whatsapp-window.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/produtos-categoria.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/quemsomos.php" beforeDir="false" afterPath="$PROJECT_DIR$/quemsomos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tratamento-detalhe.php" beforeDir="false" afterPath="$PROJECT_DIR$/tratamento-detalhe.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tratamentos.php" beforeDir="false" afterPath="$PROJECT_DIR$/tratamentos.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,27 +26,17 @@
       <file leaf-file-name="home.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/sass/pages/home.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1360">
-              <caret line="80" column="24" selection-start-line="80" selection-start-column="24" selection-end-line="80" selection-end-column="24" />
+            <state relative-caret-position="577">
+              <caret line="68" column="23" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tratamento-detalhe.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tratamento-detalhe.php">
+      <file leaf-file-name="quemsomos.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/sass/pages/quemsomos.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="93" column="34" lean-forward="true" selection-start-line="93" selection-start-column="34" selection-end-line="93" selection-end-column="44" />
+            <state>
+              <caret column="19" selection-start-column="19" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -90,8 +53,17 @@
       <file leaf-file-name="tratamentos.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tratamentos.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="553">
-              <caret line="204" column="14" lean-forward="true" selection-start-line="204" selection-start-column="14" selection-end-line="204" selection-end-column="14" />
+            <state relative-caret-position="323">
+              <caret line="144" column="62" selection-start-line="144" selection-start-column="62" selection-end-line="144" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tratamentos.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/sass/pages/tratamentos.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="105" column="11" selection-start-line="105" selection-start-column="11" selection-end-line="105" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -99,8 +71,8 @@
       <file leaf-file-name="general.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/sass/includes/general.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="111" column="14" selection-start-line="111" selection-start-column="14" selection-end-line="111" selection-end-column="14" />
+            <state relative-caret-position="288">
+              <caret line="256" column="5" selection-start-line="256" selection-start-column="2" selection-end-line="256" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -109,48 +81,30 @@
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+              <caret line="62" column="33" lean-forward="true" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tratamentos.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/sass/pages/tratamentos.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-            </state>
-          </provider>
+      <file leaf-file-name="general.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/includes/general.css">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="whatsapp-window.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/whatsapp-window.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="100" lean-forward="true" selection-start-line="27" selection-start-column="100" selection-end-line="27" selection-end-column="100" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+      <file leaf-file-name="footer.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/includes/footer.css">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="quemsomos.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quemsomos.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="80" selection-start-line="80" selection-end-line="80" />
-            </state>
-          </provider>
+      <file leaf-file-name="animations.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/includes/animations.css">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>border</find>
-      <find>.input__field--chisato</find>
       <find>produ</find>
       <find>light</find>
       <find>top</find>
@@ -159,7 +113,6 @@
       <find>form</find>
       <find>a {</find>
       <find>fale</find>
-      <find>li</find>
       <find>Cotacao</find>
       <find>img</find>
       <find>blog</find>
@@ -179,6 +132,9 @@
       <find>back</find>
       <find>label</find>
       <find>trata</find>
+      <find>li</find>
+      <find>p</find>
+      <find>p {</find>
     </findStrings>
     <replaceStrings>
       <replace>doutordental</replace>
@@ -205,8 +161,6 @@
         <option value="$PROJECT_DIR$/includes/slider.php" />
         <option value="$PROJECT_DIR$/includes/blog-divs.php" />
         <option value="$PROJECT_DIR$/assets/sass/includes/footer.scss" />
-        <option value="$PROJECT_DIR$/assets/sass/pages/quemsomos.scss" />
-        <option value="$PROJECT_DIR$/tratamentos.php" />
         <option value="$PROJECT_DIR$/blog.php" />
         <option value="$PROJECT_DIR$/includes/header.php" />
         <option value="$PROJECT_DIR$/assets/js/formConsulta.js" />
@@ -222,8 +176,10 @@
         <option value="$PROJECT_DIR$/tratamento-detalhe.php" />
         <option value="$PROJECT_DIR$/blog-detalhe.php" />
         <option value="$PROJECT_DIR$/quemsomos.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/assets/sass/includes/general.scss" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/tratamentos.php" />
+        <option value="$PROJECT_DIR$/assets/sass/pages/quemsomos.scss" />
         <option value="$PROJECT_DIR$/assets/sass/pages/tratamentos.scss" />
       </list>
     </option>
@@ -376,12 +332,13 @@
       <workItem from="1575402123931" duration="8208000" />
       <workItem from="1575460462040" duration="36698000" />
       <workItem from="1575547223722" duration="28106000" />
-      <workItem from="1575634076934" duration="24768000" />
+      <workItem from="1575634076934" duration="24905000" />
+      <workItem from="1575894806339" duration="5161000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115586000" />
+    <option name="totallyTimeSpent" value="120884000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -413,23 +370,23 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.496875" weight="0.1487779" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12916666" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Inspection Results" order="12" sideWeight="0.49947917" visible="true" weight="0.1445271" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Command Line Tools Console" order="13" weight="0.05526036" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3290938" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.503125" side_tool="true" weight="0.15898252" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3290938" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -440,26 +397,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/sass/pages/home.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/sass/estilos.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cms/action.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc_newsletter.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/cms/config/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -578,13 +515,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/sass/pages/quemsomos.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="15" column="22" selection-start-line="15" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/sass/pages/contato.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -665,9 +595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -690,7 +617,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/quemsomos.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
+        <state relative-caret-position="1360">
           <caret line="80" selection-start-line="80" selection-end-line="80" />
         </state>
       </provider>
@@ -699,10 +626,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="100" lean-forward="true" selection-start-line="27" selection-start-column="100" selection-end-line="27" selection-end-column="100" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -714,26 +637,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/sass/pages/home.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="80" column="24" selection-start-line="80" selection-start-column="24" selection-end-line="80" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tratamentos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="204" column="14" lean-forward="true" selection-start-line="204" selection-start-column="14" selection-end-line="204" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tratamento-detalhe.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="93" column="34" lean-forward="true" selection-start-line="93" selection-start-column="34" selection-end-line="93" selection-end-column="44" />
+        <state relative-caret-position="1207">
+          <caret line="93" column="34" selection-start-line="93" selection-start-column="34" selection-end-line="93" selection-end-column="44" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/estilos.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/includes/general.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="62" column="33" lean-forward="true" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/includes/animations.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/includes/footer.css">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/blog-detalhe.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -742,24 +670,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/assets/sass/pages/quemsomos.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/sass/includes/general.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="111" column="14" selection-start-line="111" selection-start-column="14" selection-end-line="111" selection-end-column="14" />
+        <state relative-caret-position="288">
+          <caret line="256" column="5" selection-start-line="256" selection-start-column="2" selection-end-line="256" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/sass/pages/home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="577">
+          <caret line="68" column="23" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tratamentos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="144" column="62" selection-start-line="144" selection-start-column="62" selection-end-line="144" selection-end-column="62" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/sass/pages/tratamentos.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="254">
+          <caret line="105" column="11" selection-start-line="105" selection-start-column="11" selection-end-line="105" selection-end-column="11" />
         </state>
       </provider>
     </entry>
