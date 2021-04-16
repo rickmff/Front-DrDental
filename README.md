@@ -1,3 +1,3 @@
 http://aprovajob.com/doutordental/
 
-![image](https://user-images.githubusercontent.com/46444941/114977127-92faf700-9e5d-11eb-9748-83c39095089d.png)
+![image](https://user-images.githubusercontent.com/46444941/114977176-a4440380-9e5d-11eb-937c-2de0fe6519f0.png)
